@@ -1,0 +1,15 @@
+@import '@/styles/variables';
+
+.button {
+  background-color: $primary1Color;
+  color: $textLight2Color;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  height: 4rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primaryColor;
+  }
+}

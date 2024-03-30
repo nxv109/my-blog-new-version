@@ -1,0 +1,60 @@
+@import '../../styles/_variables';
+
+.nav {
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    font-size: 2rem;
+  }
+
+  &__link {
+    &__item {
+      color: $textColor;
+      text-decoration: none;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $textLight1Color;
+      }
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+
+    &__item {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      border: 1px solid;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+
+      &:hover {
+        background-color: $textLight2Color;
+      }
+
+      & > img {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  &__login-btn {
+    margin-left: 1rem;
+  }
+}

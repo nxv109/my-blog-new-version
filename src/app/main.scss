@@ -1,0 +1,17 @@
+@import '../styles/mixins';
+@import '../styles/variables';
+
+main {
+  max-width: 100%;
+  width: $screen-xl;
+  padding: 2rem;
+  margin: auto;
+
+  @include smMinBreakPoint {
+    // background: red;
+  }
+
+  @include mdMinBreakPoint {
+    // background: green;
+  }
+}

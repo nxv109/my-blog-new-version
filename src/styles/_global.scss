@@ -1,0 +1,32 @@
+@import './variables';
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: all 0.3s;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-playfair-display), BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: $bgColor;
+  box-sizing: border-box;
+  height: 100vh;
+  min-height: 100%;
+}
+
+#root {
+  height: 100%;
+}
