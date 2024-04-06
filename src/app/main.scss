@@ -1,11 +1,17 @@
 @import '../styles/mixins';
 @import '../styles/variables';
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 main {
   max-width: 100%;
   width: $screen-xl;
   padding: 2rem;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 
   @include smMinBreakPoint {
     // background: red;

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { Playfair_Display, Roboto_Mono } from 'next/font/google';
 
-import Header from '@/components/Header';
+import Header from '@/components/organisms/Header';
+import Footer from '@/components/organisms/Footer';
 
 import '@/styles/_global.scss';
 import '@/styles/_typography.scss';
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
