@@ -1,0 +1,22 @@
+@import '@/styles/variables';
+
+.footer {
+  margin-top: auto;
+
+  &__copyright {
+    margin-top: 3rem;
+    padding: 3rem 0;
+    text-align: center;
+    background-color: $black;
+    color: $textLight2Color;
+  }
+
+  &__cp-text {
+    font-size: 1.4rem;
+  }
+
+  &__name {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}
