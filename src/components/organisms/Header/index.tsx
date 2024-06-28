@@ -25,6 +25,9 @@ function Header() {
           <Link className="nav__link__item" href={ROUTES.ABOUT_ME}>
             ABOUT ME
           </Link>
+          <Link className="nav__link__item" href={ROUTES.WRITER}>
+            WRITER
+          </Link>
         </div>
         <div className="nav__social">
           <div className="nav__social__item">
