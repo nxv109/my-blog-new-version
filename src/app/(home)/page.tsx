@@ -10,16 +10,13 @@ function Home() {
       <section className='home__about-me'>
         <div className='home__about-me__inner-container'>
           <div className='home__avatar'>
-            <Image
+            <img
               alt='Avatar'
-              src={AvatarImage}
-              fill
-              sizes='(max-width: 576px) 50vw, 100vw'
-              style={{ objectFit: 'cover' }}
+              src={AvatarImage.src}
             />
           </div>
           <div className='home__information'>
-            <h2 className='home__information__title'>Some words about me!</h2>
+            <h2 className='home__information__title'>Some words about me</h2>
             <p className='home__information__name'>
               My name is Vinh, I'm 27 years old
             </p>
@@ -30,7 +27,7 @@ function Home() {
               <br />
               My strengths languages and frameworks are Reactjs, Nextjs, Vuejs,
               Javascript, HTML, and CSS,... If you need to develop the above
-              products, you can contact Me.
+              products, you can contact me.
             </p>
           </div>
         </div>

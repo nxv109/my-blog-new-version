@@ -1,4 +1,5 @@
 @import './variables';
+@import './mixins';
 
 * {
   box-sizing: border-box;
@@ -8,6 +9,10 @@
 
 html {
   font-size: 10px;
+
+  @include customMaxBreakPoint(768) {
+    font-size: 9px;
+  }
 }
 
 body {

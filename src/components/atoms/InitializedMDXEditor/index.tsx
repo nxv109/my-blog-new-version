@@ -69,10 +69,10 @@ export default function InitializedMDXEditor({
         quotePlugin(),
         thematicBreakPlugin(),
         markdownShortcutPlugin(),
-        codeBlockPlugin({ defaultCodeBlockLanguage: 'js' }),
+        codeBlockPlugin({ defaultCodeBlockLanguage: 'txt' }),
         sandpackPlugin({ sandpackConfig: simpleSandpackConfig }),
         codeMirrorPlugin({
-          codeBlockLanguages: { js: 'JavaScript', css: 'CSS' },
+          codeBlockLanguages: { js: 'JavaScript', css: 'CSS', txt: 'Text' },
         }),
         toolbarPlugin({
           toolbarContents: () => (
